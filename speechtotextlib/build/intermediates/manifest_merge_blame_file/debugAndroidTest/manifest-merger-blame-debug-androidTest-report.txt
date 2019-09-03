@@ -1,0 +1,57 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.simplifiedcoding.speechtotext.test" >
+4
+5    <uses-sdk
+5-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:5:5-74
+6        android:minSdkVersion="15"
+6-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:11:5-15:88
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:11:22-76
+11        android:functionalTest="false"
+11-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:13:22-53
+13        android:label="Tests for net.simplifiedcoding.speechtotext.test"
+13-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:15:22-86
+14        android:targetPackage="net.simplifiedcoding.speechtotext.test" />
+14-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:12:22-84
+15
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-71
+16-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-68
+17
+18    <application
+18-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:7:5-9:19
+19        android:allowBackup="true"
+19-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.1] /home/sathish/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+21-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:7:18-43
+22        android:icon="@mipmap/ic_launcher"
+22-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-35
+26        android:theme="@style/AppTheme" >
+26-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-40
+27        <uses-library android:name="android.test.runner" />
+27-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:8:9-60
+27-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger2474283492694433868.xml:8:23-57
+28
+29        <activity android:name="net.simplifiedcoding.speechtotext.MainActivity" >
+29-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:9-21:20
+29-->[__tested_artifact__::speechtotextlib] /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:19-80
+30        </activity>
+31    </application>
+32
+33</manifest>

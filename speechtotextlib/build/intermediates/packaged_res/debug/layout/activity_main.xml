@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="12dp"
+    tools:context="net.simplifiedcoding.speechtotext.MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="You will see input here"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+    <ImageView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:clickable="true"
+        android:src="@drawable/round_default" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="597dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:contentDescription='© COPYRIGHT 2019.   Android App Designed By "Gibraltar Technologies". All Rights Reserved.'
+        android:rotation="1"
+        android:rotationX="1"
+        android:rotationY="1"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:text='© COPYRIGHT 2019.   Android App Designed By "Gibraltar Technologies". All Rights Reserved.'
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:text='© COPYRIGHT 2019.   Android App Designed By "Gibraltar Technologies". All Rights Reserved.'
+        tools:visibility="visible" />
+
+</RelativeLayout>

@@ -4,12 +4,12 @@ import android.annotation.TargetApi;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.transition.Slide;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import co.test.application.R;
-import co.test.application.welcome.WelcomeActivity;
+import co.test.application.welcome.*;
 
  public class SplashActivity extends AppCompatActivity {
 
@@ -23,16 +23,10 @@ import co.test.application.welcome.WelcomeActivity;
             public void run() {
                 Intent i = new Intent(SplashActivity.this, WelcomeActivity.class);
                 startActivity(i);
-                setupWindowAnimations();
+                //overridePendingTransition(R.transition.fade_in,R.transition.fade_out);
                 finish();
             }
-        },2500);
+        },3000);
     }
 
-     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-     private void setupWindowAnimations() {
-         Slide slide = new Slide();
-         slide.setDuration(1500);
-         getWindow().setExitTransition(slide);
-     }
 }

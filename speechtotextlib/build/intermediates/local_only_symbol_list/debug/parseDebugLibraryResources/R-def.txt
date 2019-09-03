@@ -1,0 +1,24 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorButton
+color colorButtonActive
+color colorPrimary
+color colorPrimaryDark
+drawable button_background
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_mic
+drawable round_active
+drawable round_default
+id button
+id confirm
+id editText
+id textView6
+layout activity_main
+mipmap gtlogo
+mipmap ic_launcher
+mipmap ic_launcher_round
+mipmap icon_record
+string app_name
+style AppTheme

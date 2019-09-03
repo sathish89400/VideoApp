@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.millertronics.millerapp.millerbcr.test" >
+4
+5    <uses-sdk
+5-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:5:5-74
+6        android:minSdkVersion="15"
+6-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:5:42-71
+8
+9    <instrumentation
+9-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:11:5-15:92
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:11:22-76
+11        android:functionalTest="false"
+11-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:13:22-53
+13        android:label="Tests for com.millertronics.millerapp.millerbcr.test"
+13-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:15:22-90
+14        android:targetPackage="com.millertronics.millerapp.millerbcr.test" />
+14-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:12:22-88
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+16-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-62
+17
+18    <application
+18-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:7:5-9:19
+19        android:allowBackup="true"
+19-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.1] /home/sathish/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+21        android:debuggable="true"
+21-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:7:18-43
+22        android:icon="@mipmap/ic_launcher"
+22-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-41
+24        android:supportsRtl="true"
+24-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:9-35
+25        android:theme="@style/AppTheme" >
+25-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-40
+26        <uses-library android:name="android.test.runner" />
+26-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:8:9-60
+26-->/home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger5866804692471284168.xml:8:23-57
+27
+28        <activity android:name="com.millertronics.millerapp.millerbcr.OcrMainActivity" >
+28-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-20:20
+28-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:19-87
+29        </activity>
+30        <activity android:name="com.millertronics.millerapp.millerbcr.CameraReaderActivity" />
+30-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-95
+30-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:19-92
+31
+32        <meta-data
+32-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-25:35
+33            android:name="com.google.android.gms.vision.DEPENDENCIES"
+33-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-70
+34            android:value="ocr" />
+34-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:13-32
+35
+36        <activity
+36-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-29:77
+37            android:name="com.millertronics.millerapp.millerbcr.ProfileCreatorActivity"
+37-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-88
+38            android:configChanges="orientation|keyboardHidden|screenSize" />
+38-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-74
+39        <activity android:name="com.millertronics.millerapp.millerbcr.ProfileListActivity" />
+39-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:9-94
+39-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:19-91
+40        <activity android:name="com.millertronics.millerapp.millerbcr.ProfileViewActivity" />
+40-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:9-94
+40-->[__tested_artifact__::ocrlib] /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:19-91
+41        <activity
+41-->[com.google.android.gms:play-services-base:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+42            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+42-->[com.google.android.gms:play-services-base:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+43            android:exported="false"
+43-->[com.google.android.gms:play-services-base:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+44            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+44-->[com.google.android.gms:play-services-base:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+45
+46        <meta-data
+46-->[com.google.android.gms:play-services-basement:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/fabf6ee8714011af0473c99c8287b748/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+47            android:name="com.google.android.gms.version"
+47-->[com.google.android.gms:play-services-basement:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/fabf6ee8714011af0473c99c8287b748/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+48            android:value="@integer/google_play_services_version" />
+48-->[com.google.android.gms:play-services-basement:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/fabf6ee8714011af0473c99c8287b748/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+49    </application>
+50
+51</manifest>

@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:1-18:12
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:5:5-71
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:5:22-68
+application
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:7:5-16:19
+	android:supportsRtl
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:13:9-40
+activity#net.simplifiedcoding.speechtotext.MainActivity
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:14:9-15:20
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:14:19-47
+uses-sdk
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml

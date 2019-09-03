@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:1-28:12
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:5:22-62
+application
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:7:5-26:19
+	android:supportsRtl
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:12:9-40
+activity#com.millertronics.millerapp.millerbcr.OcrMainActivity
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:13:9-14:20
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:13:19-50
+activity#com.millertronics.millerapp.millerbcr.CameraReaderActivity
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:15:9-58
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:15:19-55
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:17:9-19:35
+	android:value
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:19:13-32
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:18:13-70
+activity#com.millertronics.millerapp.millerbcr.ProfileCreatorActivity
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:21:9-23:86
+	android:configChanges
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:23:13-74
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:22:13-51
+activity#com.millertronics.millerapp.millerbcr.ProfileListActivity
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:24:9-57
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:24:19-54
+activity#com.millertronics.millerapp.millerbcr.ProfileViewActivity
+ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:25:9-66
+	android:name
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml:25:19-54
+uses-sdk
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+		ADDED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml
+		INJECTED from /home/sathish/AndroidStudioProjects/VideoApp/ocrlib/src/main/AndroidManifest.xml

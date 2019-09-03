@@ -1,0 +1,37 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="net.simplifiedcoding.speechtotext"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:5:5-71
+11-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:5:22-68
+12
+13    <application
+13-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:7:5-16:19
+14        android:allowBackup="true"
+14-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:8:9-35
+15        android:icon="@mipmap/ic_launcher"
+15-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:9:9-43
+16        android:label="@string/app_name"
+16-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:10:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:11:9-54
+18        android:supportsRtl="true"
+18-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:12:9-35
+19        android:theme="@style/AppTheme" >
+19-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:13:9-40
+20        <activity android:name="net.simplifiedcoding.speechtotext.MainActivity" >
+20-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:14:9-15:20
+20-->/home/sathish/AndroidStudioProjects/VideoApp/speechtotextlib/src/main/AndroidManifest.xml:14:19-47
+21        </activity>
+22    </application>
+23
+24</manifest>

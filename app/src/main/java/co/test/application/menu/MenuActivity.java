@@ -1,29 +1,21 @@
 package co.test.application.menu;
 
-import android.annotation.TargetApi;
 import android.content.res.Configuration;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.transition.Fade;
-import android.transition.Slide;
-import android.util.Log;
-import android.view.View;
-import android.support.v4.view.GravityCompat;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.view.MenuItem;
-import android.support.design.widget.NavigationView;
-import android.support.v4.widget.DrawerLayout;
-
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
+import android.widget.VideoView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import java.util.Objects;
 
@@ -35,11 +27,11 @@ public class MenuActivity extends AppCompatActivity {
     private RelativeLayout rootView;
     private int orientation;
     private String title="";
+    private VideoView videoView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         initUI(checkLandscape());
-
     }
 
     private int checkLandscape() {
@@ -53,8 +45,8 @@ public class MenuActivity extends AppCompatActivity {
 
     private void initUI(int orientation) {
         setContentView(R.layout.activity_menu);
-        setupEnterWindowAnimations();
         rootView = findViewById(R.id.rootView);
+        videoView = findViewById(R.id.video);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ImageView imageScreen = findViewById(R.id.screen);
@@ -88,8 +80,23 @@ public class MenuActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-            super.onBackPressed();
-        setupExitWindowAnimations();
+         //   super.onBackPressed();
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        rootView.setVisibility(View.GONE);
+        videoView.setVisibility(View.VISIBLE);
+        findViewById(R.id.bottom_layout).setVisibility(View.VISIBLE);
+        videoView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.thank_you_for_serve_u));
+        videoView.requestFocus();
+        videoView.start();
+        videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mediaPlayer) {
+                finish();
+            }
+        });
 
     }
 
@@ -126,17 +133,6 @@ public class MenuActivity extends AppCompatActivity {
         super.onConfigurationChanged(newConfig);
     }
 
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    private void setupExitWindowAnimations() {
-        Slide slide = new Slide();
-        slide.setDuration(1500);
-        getWindow().setExitTransition(slide);
-    }
 
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    private void setupEnterWindowAnimations() {
-        Fade fade = new Fade();
-        fade.setDuration(1500);
-        getWindow().setEnterTransition(fade);
-    }
+
 }
